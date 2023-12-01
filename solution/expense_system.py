@@ -34,6 +34,12 @@ class ExpenseSystem:
 
             self.user_expense_summary[user][main_user] -= each_share
 
+    def list_user_expenses(self, user):
+        pass
+
+    def settle_funds(self, userA, userB):
+        pass
+
     def generate_user_summary(self, user):
         if not len(self.expenses):
             raise Exception("Not added any expenses yet")
